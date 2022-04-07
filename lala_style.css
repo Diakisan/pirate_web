@@ -1,0 +1,69 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 0 430px;
+    overflow: hidden;
+    background-color: #1b2755;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 66px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #375659;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    padding: 30px 20px 30px 250px;
+
+}
+
+body {
+    background-image: url("painting-ship.jpg");
+    background-size: 100%;
+}
+
+.info {
+    padding: 30px 0px 30px 250px;
+    background-color: rgba(255, 255, 255, 0.606);
+}
+
+p {
+    font-size: 20px;
+}
+
+table {
+    border: 5px solid #2b4f61;
+}
+
+tr td {
+    border: 2px solid #2b4f61;
+
+}
+
+
+footer { background-color: #194d61a7;
+    text-align: center;
+   
+}
